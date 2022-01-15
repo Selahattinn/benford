@@ -11,7 +11,7 @@ make build
 make test
 ```
 
-# Running Server
+# Running Benford
 ```shell
 ./bin/benford [-csv string] [-colIndex int]  [-version]
 
