@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/CMiksche/benford"
-	"github.com/Selahattin/benford/pkg/chart"
-	readcsv "github.com/Selahattin/benford/pkg/readCsv"
+	"github.com/Selahattinn/benford/pkg/chart"
+	readcsv "github.com/Selahattinn/benford/pkg/readCsv"
 
-	"github.com/Selahattin/benford/pkg/version"
+	"github.com/Selahattinn/benford/pkg/version"
 )
 
 var (
