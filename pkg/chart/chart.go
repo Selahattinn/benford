@@ -10,6 +10,7 @@ var (
 	barWidth = 80
 )
 
+// GenerateChart generates output.png file in root directory. If fails returns error
 func GenerateChart(data []float64) error {
 	chart.DefaultBackgroundColor = chart.ColorTransparent
 	chart.DefaultCanvasColor = chart.ColorTransparent

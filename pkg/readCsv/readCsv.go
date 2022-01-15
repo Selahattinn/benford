@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+// ReadCsv takes a filepath and read it. In datas it only looking spesific index and collect all datas and return in []int format
 func ReadCsv(filePath string, colIndex int) ([]int, error) {
 	f, err := os.Open(filePath)
 	if err != nil {
